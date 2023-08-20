@@ -1,4 +1,4 @@
-# Other-Minecraft-Mod-v2
+# Farn's Minecraft Mod Collection
 repo that contain other minecraft mod
 
 ## Old Repo
