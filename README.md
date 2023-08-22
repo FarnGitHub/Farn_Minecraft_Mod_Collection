@@ -2,6 +2,7 @@
 repo that contain my minecraft mod
 
 ## Old Repo
+the repo has been moved a few time due to contain too many mod
 
 - Old : https://github.com/FarnGitHub/Other-Minecraft-Mod
 
@@ -10,6 +11,7 @@ repo that contain my minecraft mod
 - Oldest : https://github.com/FarnGitHub/Farn-s-minecraft-beta-1.7.3-Mod
 
 ## Special
+A mod that got it own repo
 
 ### Current
 
