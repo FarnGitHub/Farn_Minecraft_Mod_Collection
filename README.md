@@ -2,7 +2,7 @@
 repo that contain my minecraft mod
 
 ## Old Repo
-the repo has been moved a few time due to contain too many mod
+this repo has been moved for few time due to contain too many mod
 
 - Old : https://github.com/FarnGitHub/Other-Minecraft-Mod
 
