@@ -1,5 +1,5 @@
 # Farn's Minecraft Mod Collection
-repo that contain my minecraft mod
+repo that contain my minecraft mod and other people mod
 
 ## Old Repo
 this repo has been moved for few time due to contain too many mod
