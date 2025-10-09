@@ -1,0 +1,20 @@
+{
+	"version": 1,
+	"downloads": {
+		"APClient202.jar":		"https://alphaplace.net/downloads/mods/APClientV202.zip",
+		"BTA.json":				"https://raw.githubusercontent.com/Bestsoft101/BTA-Installer/refs/heads/resources/BTA.json"
+
+	},
+	"versions": {
+		"Alphaplace Client v2.02": {
+			"jar": "APClient202.jar",
+			"vanilla": {
+				"json": "BTA.json"
+			},
+			"betacraft": {
+				"launch-method": "default",
+				"proxy": false
+			}
+		}
+	}
+}
