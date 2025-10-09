@@ -2,14 +2,14 @@
 	"version": 1,
 	"downloads": {
 		"APClient202.jar":		"https://alphaplace.net/downloads/mods/APClientV202.zip",
-		"BTA.json":				"https://raw.githubusercontent.com/Bestsoft101/BTA-Installer/refs/heads/resources/BTA.json"
+		"NoRedownload.json":	"https://github.com/FarnGitHub/Farn_Minecraft_Mod_Collection/raw/refs/heads/main/Alphaplace%20Client%20v2.02.json"
 
 	},
 	"versions": {
 		"Alphaplace Client v2.02": {
 			"jar": "APClient202.jar",
 			"vanilla": {
-				"json": "BTA.json"
+				"json": "NoRedownload.json"
 			},
 			"betacraft": {
 				"launch-method": "default",
