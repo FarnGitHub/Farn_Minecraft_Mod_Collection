@@ -21,6 +21,11 @@ for component in mmc_data.get("components", []):
     uid = component.get("uid", "")
     jarmodName = component.get("cachedName", "")
     if uid.startswith("org.multimc.jarmod."):
+        disabled = component.get("disabled", False)  # Default False means enabled
+
+        if disabled:
+            print(f"Skipping disabled jarmod: {jarmodName}")
+            continue
         obfuscated_name = uid[len("org.multimc.jarmod."):]  # remove prefix
         jar_path = os.path.join(JARMODS_DIR, f"{obfuscated_name}.jar")
         if os.path.isfile(jar_path):
@@ -54,4 +59,5 @@ with zipfile.ZipFile(OUTPUT_JAR, "w") as out_zip:
 
 print(f"Merged JAR created: {OUTPUT_JAR}")
 input("Press Enter to exit...")
+
 
