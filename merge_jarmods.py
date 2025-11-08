@@ -31,7 +31,7 @@ for component in mmc_data.get("components", []):
             print(f"Warning: Jar file not found for UID {uid}: {jar_path}")
 
 # Merge jars into OUTPUT_JAR
-# This time: later mods overwrite earlier ones
+# replace the dupilicate file with the new one
 merged_files = {}
 
 for uid in uid_order:
@@ -54,3 +54,4 @@ with zipfile.ZipFile(OUTPUT_JAR, "w") as out_zip:
 
 print(f"Merged JAR created: {OUTPUT_JAR}")
 input("Press Enter to exit...")
+
